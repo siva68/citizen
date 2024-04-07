@@ -12,6 +12,9 @@ import jakarta.persistence.Table;
 @Table(name="citizen")
 public class Citizen 
 {
+	
+	public Citizen() {
+	}
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	Long id;
